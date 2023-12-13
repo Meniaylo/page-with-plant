@@ -5,5 +5,6 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 72px 290px 177px;
-    font-family: 'Mukta Vaani', 'Inter', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
+    position: relative;
 }

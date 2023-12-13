@@ -1,0 +1,4 @@
+.banner {
+  width: 100%;
+  height: calc(100wv - 44px - 72px);
+}
