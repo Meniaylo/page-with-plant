@@ -1,4 +1,7 @@
 .banner {
   width: 100%;
-  height: calc(100wv - 44px - 72px);
+  height: calc(100vh - 44px - 72px);
+  display: flex;
+  align-items: center;
+  position: relative;
 }

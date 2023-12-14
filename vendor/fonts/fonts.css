@@ -1,7 +1,15 @@
+/* @font-face {
+  font-family: "Akronim";
+  font-style:  regular;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Akronim-Regular.ttf") format("truetype");
+} */
+
 @font-face {
-    font-family: 'Mukta Vaani';
+    font-family: "Mukta Vaani";
     font-style:  light;
     font-weight: 400;
     font-display: swap;
-    src: url("MuktaVaani-Light.ttf") format("ttf");
+    src: url("MuktaVaani-Light.ttf") format("truetype");
   }

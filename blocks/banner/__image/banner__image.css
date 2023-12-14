@@ -1,0 +1,8 @@
+.banner__image {
+  height: 100%;
+  max-width: 60%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
