@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/link/link.css);
@@ -11,3 +10,8 @@
 @import url(../blocks/banner/__logo/banner__logo.css);
 @import url(../blocks/banner/__tagline/banner__tagline.css);
 @import url(../blocks/banner/__image/banner__image.css);
+@import url(../blocks/plants/plants.css);
+@import url(../blocks/plant/plant.css);
+@import url(../blocks/plant/__img/plant__img.css);
+@import url(../blocks/plant/__text/plant__text.css);
+@import url(../blocks/plant/__name/plant__name.css);

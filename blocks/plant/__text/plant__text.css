@@ -1,0 +1,6 @@
+.plant__text {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
