@@ -15,3 +15,5 @@
 @import url(../blocks/plant/__img/plant__img.css);
 @import url(../blocks/plant/__text/plant__text.css);
 @import url(../blocks/plant/__name/plant__name.css);
+@import url(../blocks/plant/__description/plant__description.css);
+@import url(../blocks/plants/__next-btn/plants__next-btn.css);

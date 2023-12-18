@@ -1,0 +1,9 @@
+.plants__next-btn {
+  width: 32px;
+  height: 66px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../../images/next-btn.svg);
+  background-position: 100%;
+}

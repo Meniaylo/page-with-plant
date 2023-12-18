@@ -1,10 +1,10 @@
 .root {
     min-width: 320px;
-    max-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 72px 290px 177px;
+    padding: 72px 0 177px;
     font-family: 'Inter', Arial, sans-serif;
     position: relative;
 }
