@@ -17,3 +17,6 @@
 @import url(../blocks/plant/__name/plant__name.css);
 @import url(../blocks/plant/__description/plant__description.css);
 @import url(../blocks/plants/__next-btn/plants__next-btn.css);
+@import url(../blocks/social-navigation/social-navigation.css);
+@import url(../blocks/social-list/social-list.css);
+@import url(../blocks/social-list/__img/social-list__img.css);
