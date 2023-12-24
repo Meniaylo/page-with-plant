@@ -1,0 +1,18 @@
+.plants__view-gallery-btn {
+  position: absolute;
+  bottom: -215px;
+  left: calc(777px + 290px); /* 777 - left margin of plant__text, 290 - plants left padding */
+  width: 433px;
+  height: 91px;
+  margin-bottom: 62px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 3px solid #979797;
+  color: #979797;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 8px;
+}

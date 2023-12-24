@@ -1,5 +1,7 @@
 .plant__img {
-  max-height: calc(100vh - 141px - 70px); /* 141 = plants top padding, 70 - bottom margin, used only here */
+  min-height: calc(100% + 135px + 215px + 62px); /* 135 - bottom padding, 215 - view-gallery-btn bottom absolute, 62 - view-gallery-btn margin-bottom */
+  max-height: calc(100vh - 141px - 70px); /* 141 - plants top padding, 70 - margin-bottom */
+  margin-bottom: 70px;
   width: 640px;
   object-fit: cover;
   object-position: top;
