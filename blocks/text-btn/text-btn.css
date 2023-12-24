@@ -1,0 +1,14 @@
+.text-btn {
+  width: 433px;
+  height: 91px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 3px solid #979797;
+  color: #979797;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 8px;
+}
