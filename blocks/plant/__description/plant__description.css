@@ -6,4 +6,13 @@
   text-align: justify;
   max-height: calc(100vh - 141px - 135px); /* 141 = plants top padding, 135 - plants bottom padding */;
   text-overflow: ellipsis;
+  margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .plant__description {
+    font-size: 22px;
+    line-height: 32px;
+    max-height: calc(100vh - 130px - 125px);
+  }
 }

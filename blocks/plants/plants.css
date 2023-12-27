@@ -1,8 +1,17 @@
 .plants {
-  /* width: 100%; */
   background-color: #4A4A4A;
   position: relative;
-  padding: 141px 290px 135px;
+  /* padding: 141px 290px 135px; */
+  padding-top: 141px;
+  padding-bottom: 135px;
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .plants {
+    padding-top: 130px;
+    padding-bottom: 125px;
+  }
 }

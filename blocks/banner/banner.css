@@ -1,7 +1,14 @@
 .banner {
-  height: calc(100vh - 44px - 72px);
+  height: calc(100vh - 40px - 72px); /* 40 = header__item-img height, 72 = root padding-top*/
   padding: 0 290px;
   display: flex;
   align-items: center;
   position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner {
+    padding: 0 200px;
+    height: calc(100vh - 32px - 72px);
+  }
 }

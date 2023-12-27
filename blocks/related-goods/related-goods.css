@@ -4,5 +4,5 @@
   grid-template-rows: minmax(min-content, max-content) 91px;
   grid-template-columns: 47px repeat(2, minmax(min-content, max-content));
   column-gap: 10px;
-  row-gap: 110px;
+  row-gap: 88px;
 }
