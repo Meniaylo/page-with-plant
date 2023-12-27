@@ -11,6 +11,7 @@
 @import url(../blocks/banner/__tagline/banner__tagline.css);
 @import url(../blocks/banner/__image/banner__image.css);
 @import url(../blocks/plants/plants.css);
+@import url(../blocks/content/__section-with-bottom-margin/content__section-with-bottom-margin.css);
 @import url(../blocks/plant/plant.css);
 @import url(../blocks/plant/__img/plant__img.css);
 @import url(../blocks/plant/__text/plant__text.css);
@@ -27,8 +28,6 @@
 @import url(../blocks/vase/vase.css);
 @import url(../blocks/vase/__img/vase__img.css);
 @import url(../blocks/vase/__description/vase__description.css);
-
 @import url(../blocks/related-goods/__btn/related-goods__btn.css);
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer__img/footer__img.css);
