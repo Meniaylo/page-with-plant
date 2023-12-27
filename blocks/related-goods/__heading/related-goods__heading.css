@@ -1,0 +1,15 @@
+.related-goods__heading {
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 10.7px;
+  color: #7A797A;
+  justify-self: -5px;
+  margin: 0;
+  margin-left: -12px;
+  grid-row: 1/3;
+}

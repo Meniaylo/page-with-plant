@@ -1,0 +1,4 @@
+.vase {
+  display: flex;
+  flex-direction: column;
+}
