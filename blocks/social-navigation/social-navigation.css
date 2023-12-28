@@ -1,5 +1,6 @@
 .social-navigation {
-  position: absolute;
-  left: 43px;
-  bottom: 211px;
+  grid-area: navigation;
+  background-color: #4A4A4A;
+  padding-left: 43px;
+  padding-top: 115%;
 }

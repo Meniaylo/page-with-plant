@@ -1,0 +1,6 @@
+.plants__info {
+  grid-area: plant-info;
+  background: #4A4A4A;
+  color: #FFFFFF;
+  padding: 54px 0 135px;
+}

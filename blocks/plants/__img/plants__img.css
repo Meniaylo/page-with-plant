@@ -1,0 +1,4 @@
+.plants__img {
+  grid-area: image;
+  width: 640px;
+}

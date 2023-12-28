@@ -1,0 +1,5 @@
+.plants__margin-top {
+  grid-area: margin-top;
+  height: 141px;
+  background-color: #4A4A4A;
+}

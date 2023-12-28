@@ -1,0 +1,5 @@
+.plants__space-dark {
+  grid-area: space-dark;
+  width: 137px;
+  background-color: #4A4A4A;
+}
