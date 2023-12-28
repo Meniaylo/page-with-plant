@@ -11,7 +11,7 @@
   padding-left: 123px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1650px) {
   .plants__next-btn {
     background-size: 32px;
     padding-left: 96px;

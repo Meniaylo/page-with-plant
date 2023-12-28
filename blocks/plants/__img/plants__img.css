@@ -5,7 +5,13 @@
   object-position: center;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1650px) {
+  .plants__img {
+    width: 570px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
   .plants__img {
     width: 510px;
   }
