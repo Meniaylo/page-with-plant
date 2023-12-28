@@ -12,7 +12,7 @@
   letter-spacing: 8px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1500px) {
   .text-btn {
     width: 345px;
     height: 73px;

@@ -3,7 +3,7 @@
   margin: 124px 0 62px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1500px) {
   .plants__text-btn {
     margin: 91px 0 50px;
   }
