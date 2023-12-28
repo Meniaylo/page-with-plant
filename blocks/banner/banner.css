@@ -1,5 +1,5 @@
 .banner {
-  height: calc(100vh - 44px - 72px); /* 40 = header__item-img height, 72 = root padding-top*/
+  height: calc(100vh - 40px - 72px); /* 40 = header__item-img height, 72 = root padding-top*/
   padding: 0 290px;
   display: flex;
   align-items: center;
