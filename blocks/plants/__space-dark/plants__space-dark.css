@@ -3,3 +3,9 @@
   width: 137px;
   background-color: #4A4A4A;
 }
+
+@media screen and (max-width: 1440px) {
+  .plants__space-dark {
+    width: 107px;
+  }
+}

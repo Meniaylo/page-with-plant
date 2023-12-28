@@ -4,3 +4,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media screen and (max-width: 1440px) {
+  .content {
+    padding-bottom: 150px;
+  }
+}

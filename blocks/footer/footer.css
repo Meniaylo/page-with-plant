@@ -3,3 +3,9 @@
   position: absolute;
   bottom: 0;
 }
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    padding: 0 85px;
+  }
+}

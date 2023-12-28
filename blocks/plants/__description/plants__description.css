@@ -5,6 +5,13 @@
   line-height: 35px;
   text-align: justify;
   max-height: 210px;
-  text-overflow: ellipsis;
+  overflow: hidden;
   margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .plants__description {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }

@@ -6,3 +6,10 @@
   letter-spacing: .24em;
   margin: 0 0 .1em;
 }
+
+@media screen and (max-width: 1440px) {
+  .plants__name {
+    font-size: 65px;
+    line-height: 77px;
+  }
+}

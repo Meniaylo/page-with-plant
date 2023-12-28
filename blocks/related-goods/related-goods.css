@@ -1,8 +1,16 @@
 .related-goods {
-  padding: 230px 450px 0;
+  padding-top: 230px;
   display: grid;
-  grid-template-rows: minmax(min-content, max-content) 91px;
-  grid-template-columns: 47px repeat(2, minmax(min-content, max-content));
+  justify-content: center;
+  grid-template-rows: minmax(min-content, max-content) min-content;
+  grid-template-columns: min-content repeat(2, min-content);
   column-gap: 10px;
   row-gap: 88px;
+}
+
+@media screen and (max-width: 1440px) {
+  .related-goods {
+    padding-top: 180px;
+    row-gap: 62px;
+  }
 }

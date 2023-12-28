@@ -4,3 +4,9 @@
   color: #FFFFFF;
   padding: 54px 0 135px;
 }
+
+@media screen and (max-width: 1440px) {
+  .plants__info {
+    padding: 45px 0 110px;
+  }
+}

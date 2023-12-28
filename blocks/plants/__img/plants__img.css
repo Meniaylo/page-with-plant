@@ -1,4 +1,12 @@
 .plants__img {
   grid-area: image;
   width: 640px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .plants__img {
+    width: 510px;
+  }
 }

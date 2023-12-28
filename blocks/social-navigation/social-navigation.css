@@ -2,5 +2,12 @@
   grid-area: navigation;
   background-color: #4A4A4A;
   padding-left: 43px;
-  padding-top: 115%;
+  padding-top: 324px;
+}
+
+@media screen and (max-width: 1440px) {
+  .social-navigation {
+    padding-left: 35px;
+    padding-top: 250px;
+  }
 }

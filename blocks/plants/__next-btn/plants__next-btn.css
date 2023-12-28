@@ -1,12 +1,19 @@
 .plants__next-btn {
   grid-area: next-btn;
-  width: 32px;
   height: 100%;
   box-sizing: border-box;
   border: none;
   background: #4A4A4A;
   background-image: url(../../../images/next-btn.svg);
-  background-position: 100% 37%;
+  background-size: 38px;
+  background-position: center right;
   background-repeat: no-repeat;
   padding-left: 123px;
+}
+
+@media screen and (max-width: 1440px) {
+  .plants__next-btn {
+    background-size: 32px;
+    padding-left: 96px;
+  }
 }

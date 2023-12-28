@@ -3,3 +3,9 @@
   grid-column: 3;
   margin-left: 14px;
 }
+
+@media screen and (max-width: 1440px) {
+  .related-goods__btn {
+    margin-left: 8px;
+  }
+}

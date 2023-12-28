@@ -1,5 +1,5 @@
 .vase__description {
-  padding: 24px 13%;
+  padding: 24px 12%;
   margin: 0;
   font-family: Mukta Vaani;
   font-weight: 400;
@@ -7,4 +7,11 @@
   line-height: 35px;
   text-align: center;
   color: #4A4A4A;
+}
+
+@media screen and (max-width: 1440px) {
+  .vase__description {
+    font-size: 19px;
+    line-height: 28px;
+  }
 }

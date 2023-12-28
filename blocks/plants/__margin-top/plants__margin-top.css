@@ -3,3 +3,9 @@
   height: 141px;
   background-color: #4A4A4A;
 }
+
+@media screen and (max-width: 1440px) {
+  .plants__margin-top {
+    height: 110px;
+  }
+}

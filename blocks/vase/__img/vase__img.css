@@ -2,3 +2,9 @@
   height: 419px;
   object-fit: contain;
 }
+
+@media screen and (max-width: 1440px) {
+  .vase__img {
+    height: 336px;
+  }
+}
