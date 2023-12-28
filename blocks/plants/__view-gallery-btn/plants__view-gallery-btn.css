@@ -4,3 +4,11 @@
   left: calc(777px + 290px); /* 777 - left margin of plant__text, 290 - plants left padding */
   margin-bottom: 62px;
 }
+
+@media screen and (max-width: 1440px) {
+  .plants__view-gallery-btn {
+    bottom: -215px;
+    left: calc(650px + 290px); /* 777 - left margin of plant__text, 290 - plants left padding */
+    margin-bottom: 62px;
+  }
+}

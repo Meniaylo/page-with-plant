@@ -7,3 +7,9 @@
   background-image: url(../../../images/next-btn.svg);
   background-position: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+  .plants__next-btn {
+    width: 28px;
+  }
+}
