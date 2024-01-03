@@ -43,3 +43,11 @@
     margin-top: 24px;
   }
 }
+
+@media screen and (max-width: 834px) {
+  .related-goods__heading {
+    width: 19px;
+    font-size: 26px;
+    margin-top: 22px;
+  }
+}

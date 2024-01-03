@@ -7,3 +7,9 @@
     margin-bottom: 32px;
   }
 }
+
+@media screen and (max-width: 834px) {
+  .plants__text {
+    margin-bottom: 28px;
+  }
+}

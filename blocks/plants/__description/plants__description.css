@@ -36,3 +36,10 @@
     line-height: 23px;
   }
 }
+
+@media screen and (max-width: 834px) {
+  .plants__description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

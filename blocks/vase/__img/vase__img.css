@@ -26,3 +26,9 @@
     height: 262px;
   }
 }
+
+@media screen and (max-width: 834px) {
+  .vase__img {
+    height: 248px;
+  }
+}

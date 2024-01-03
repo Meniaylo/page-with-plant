@@ -9,3 +9,9 @@
     margin-left: 8px;
   }
 }
+
+@media screen and (max-width: 834px) {
+  .related-goods__btn {
+    margin-left: 4px;
+  }
+}
