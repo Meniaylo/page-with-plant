@@ -6,3 +6,12 @@
   bottom: 0;
   right: 29%;
 }
+
+@media screen and (max-width: 768px) {
+  .banner__image {
+    height: 77%;
+    max-width: 50%;
+    right: 12%;
+    object-fit: fill;
+  }
+}

@@ -8,9 +8,14 @@
     position: relative;
 }
 
-
 @media screen and (max-width: 1024px) {
   .root {
     padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    padding-top: 30px;
   }
 }

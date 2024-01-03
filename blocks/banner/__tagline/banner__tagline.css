@@ -7,9 +7,23 @@
   color: #7A797A;
 }
 
+@media screen and (max-width: 1440px) {
+  .banner__tagline {
+    font-size: 39px;
+    line-height: 28px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .banner__tagline {
-    font-size: 44px;
-    line-height: 34px;
+    font-size: 36px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner__tagline {
+    font-size: 30px;
+    line-height: 15px;
   }
 }

@@ -18,3 +18,11 @@
     height: calc(100vh - 28px - 72px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: calc(100vh - 26px - 30px);
+    padding: 0 68px;
+    overflow: hidden;
+  }
+}
