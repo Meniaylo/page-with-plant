@@ -28,3 +28,9 @@
     row-gap: 35px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .related-goods {
+    row-gap: 32px;
+  }
+}

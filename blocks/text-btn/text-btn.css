@@ -46,3 +46,11 @@
     font-size: 19px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .text-btn {
+    width: 222px;
+    height: 47px;
+    font-size: 17px;
+  }
+}

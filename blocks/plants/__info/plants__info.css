@@ -22,3 +22,9 @@
     padding: 22px 0 82px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .plants__info {
+    padding-bottom: 76px;
+  }
+}

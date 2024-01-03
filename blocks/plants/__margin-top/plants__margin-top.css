@@ -27,3 +27,9 @@
     height: 74px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .plants__margin-top {
+    height: 50px;
+  }
+}

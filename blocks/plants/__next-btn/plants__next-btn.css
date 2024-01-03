@@ -38,3 +38,10 @@
     padding-left: 64px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .plants__next-btn {
+    background-size: 22px;
+    padding-left: 48px;
+  }
+}
