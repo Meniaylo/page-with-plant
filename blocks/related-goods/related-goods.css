@@ -14,3 +14,10 @@
     row-gap: 62px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .related-goods {
+    padding-top: 160px;
+    row-gap: 46px;
+  }
+}
