@@ -17,3 +17,10 @@
     padding-left: 96px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .plants__next-btn {
+    background-size: 26px;
+    padding-left: 82px;
+  }
+}

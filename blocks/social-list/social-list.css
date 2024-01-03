@@ -7,3 +7,9 @@
   flex-direction: column;
   gap: 16px;
 }
+
+@media screen and (max-width: 1280px) {
+  .social-navigation {
+    gap: 12px;
+  }
+}

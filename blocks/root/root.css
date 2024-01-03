@@ -1,10 +1,16 @@
 .root {
     min-width: 320px;
     max-width: 1920px;
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     padding-top: 72px;
     font-family: 'Inter', Arial, sans-serif;
     position: relative;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .root {
+    padding-top: 40px;
+  }
 }

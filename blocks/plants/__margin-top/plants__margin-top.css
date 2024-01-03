@@ -9,3 +9,9 @@
     height: 110px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .plants__margin-top {
+    height: 94px;
+  }
+}

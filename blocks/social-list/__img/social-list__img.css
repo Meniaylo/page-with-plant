@@ -1,3 +1,9 @@
 .social-list__img {
     height: 16px;
 }
+
+@media screen and (max-width: 1280px) {
+    .social-list__img {
+        height: 14px;
+    }
+  }

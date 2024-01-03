@@ -6,6 +6,12 @@
 
 @media screen and (max-width: 1440px) {
   .plants__space-dark {
-    width: 107px;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .plants__space-dark {
+    width: 94px;
   }
 }

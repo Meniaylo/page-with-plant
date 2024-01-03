@@ -11,3 +11,10 @@
     padding-top: 250px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .social-navigation {
+    padding-left: 30px;
+    padding-top: 210px;
+  }
+}

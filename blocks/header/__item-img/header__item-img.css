@@ -8,3 +8,9 @@
     height: 32px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .header__item-img {
+    height: 28px;
+  }
+}
