@@ -15,3 +15,15 @@
     height: 94px;
   }
 }
+
+@media screen and (max-width: 1150px) {
+  .plants__margin-top {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .plants__margin-top {
+    height: 74px;
+  }
+}

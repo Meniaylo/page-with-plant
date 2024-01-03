@@ -22,3 +22,15 @@
     width: 450px;
   }
 }
+
+@media screen and (max-width: 1150px) {
+  .plants__img {
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .plants__img {
+    width: 380px;
+  }
+}

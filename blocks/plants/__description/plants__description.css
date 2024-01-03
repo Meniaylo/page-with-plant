@@ -23,3 +23,9 @@
     max-height: 160px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .plants__description {
+    max-height: 200px;
+  }
+}

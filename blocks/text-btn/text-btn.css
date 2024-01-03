@@ -30,3 +30,19 @@
     border-width: 2px;
   }
 }
+
+@media screen and (max-width: 1150px) {
+  .text-btn {
+    width: 270px;
+    height: 58px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text-btn {
+    width: 236px;
+    height: 56px;
+    font-size: 19px;
+  }
+}

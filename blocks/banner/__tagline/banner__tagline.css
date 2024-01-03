@@ -21,6 +21,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .banner__tagline {
+    font-size: 34px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .banner__tagline {
     font-size: 30px;

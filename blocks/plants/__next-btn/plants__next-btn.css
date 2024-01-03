@@ -24,3 +24,17 @@
     padding-left: 82px;
   }
 }
+
+@media screen and (max-width: 1150px) {
+  .plants__next-btn {
+    background-size: 25px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .plants__next-btn {
+    background-size: 24px;
+    padding-left: 64px;
+  }
+}

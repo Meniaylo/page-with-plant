@@ -7,6 +7,15 @@
   right: 29%;
 }
 
+@media screen and (max-width: 900px) {
+  .banner__image {
+    height: 84%;
+    max-width: 50%;
+    right: 18%;
+    object-fit: fill;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .banner__image {
     height: 77%;

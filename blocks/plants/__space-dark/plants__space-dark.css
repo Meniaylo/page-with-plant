@@ -15,3 +15,15 @@
     width: 94px;
   }
 }
+
+@media screen and (max-width: 1150px) {
+  .plants__space-dark {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .plants__space-dark {
+    width: 74px;
+  }
+}
