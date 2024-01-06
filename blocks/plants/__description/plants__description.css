@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 900px) {
   .plants__description {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 23px;
   }
 }
@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 768px) {
   .plants__description {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 23px;
   }
 }

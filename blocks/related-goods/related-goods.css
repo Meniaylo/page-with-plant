@@ -41,9 +41,9 @@
   }
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 768px) {
   .related-goods {
-    padding-top: 140px;
+    padding-top: 120px;
     row-gap: 44px;
   }
 }
