@@ -26,3 +26,10 @@
     margin: 46px 0 28px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .plants__text-btn {
+    margin: 20px auto;
+    
+  }
+}

@@ -1,6 +1,6 @@
 .plants__next-btn {
   grid-area: next-btn;
-  height: 100%;
+  /* height: 100%; */
   box-sizing: border-box;
   border: none;
   background: #4A4A4A;
@@ -43,5 +43,12 @@
   .plants__next-btn {
     background-size: 22px;
     padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plants__next-btn {
+    background-size: 36px;
+    background-position: center;
   }
 }

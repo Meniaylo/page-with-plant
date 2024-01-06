@@ -1,21 +1,23 @@
 .plants {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr min-content min-content min-content max-content 1fr;
+  grid-template-columns: 1fr repeat(4, min-content) 1fr;
   grid-template-rows: repeat(3, min-content);
   grid-template-areas:
   "margin-top         margin-top  margin-top   margin-top  margin-top          margin-top"
   "navigation         image       space-dark   plant-info  next-btn            margin-right-dark"
   "...                image       ...          text-btn    ...                 ...";
 }
-/* 
+
 @media screen and (max-width: 768px) {
   .plants {
-    grid-template-columns: 1fr min-content min-content min-content 1fr;
-    grid-template-rows: min-content min-content min-content;
+    grid-template-columns: 1fr repeat(3, min-content) 1fr;
+    grid-template-rows: min-content min-content 1fr min-content min-content;
     grid-template-areas:
-  "margin-top         margin-top  margin-top   margin-top  margin-top          margin-top"
-  "navigation         image       space-dark   plant-info  next-btn            margin-right-dark"
-  "...                image       ...          text-btn    ...                 ...";
+  "margin-top         margin-top         margin-top         margin-top         margin-top"
+  "navigation         image              space-dark         plant-info         margin-right-dark"
+  "navigation         image              space-dark         next-btn           margin-right-dark"
+  "margin-bottom-dark margin-bottom-dark margin-bottom-dark margin-bottom-dark margin-bottom-dark"
+  "text-btn           text-btn           text-btn           text-btn           text-btn";
   }
-} */
+}

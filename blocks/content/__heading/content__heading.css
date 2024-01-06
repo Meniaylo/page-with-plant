@@ -1,5 +1,7 @@
 .content__heading {
     position: absolute;
-    clip-path: inset(100%);
+    /* clip-path: inset(100%); */
+    /* display: none; */
+    color: transparent;
     margin: 0;
 }

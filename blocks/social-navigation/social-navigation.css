@@ -18,3 +18,10 @@
     padding-top: 210px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .social-navigation {
+    padding-left: 26px;
+    padding-top: 265px;
+  }
+}

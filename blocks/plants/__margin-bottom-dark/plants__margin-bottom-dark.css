@@ -1,0 +1,12 @@
+.plants__margin-bottom-dark {
+  grid-area: margin-bottom-dark;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .plants__margin-bottom-dark {
+    display: block;
+    height: 50px;
+    background-color: #4A4A4A;
+  }
+}
