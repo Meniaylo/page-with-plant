@@ -24,3 +24,16 @@
     object-fit: fill;
   }
 }
+
+@media screen and (max-width: 810px) {
+  .banner__image {
+    height: 100%;
+    max-width: 100%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 26%;
+    z-index: -1;
+  }
+}

@@ -62,3 +62,10 @@
     line-height: 56px;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .plants__name {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}

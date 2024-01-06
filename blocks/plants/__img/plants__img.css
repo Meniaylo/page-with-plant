@@ -40,3 +40,9 @@
     width: 324px;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .plants__img {
+    width: 277px;
+  }
+}
