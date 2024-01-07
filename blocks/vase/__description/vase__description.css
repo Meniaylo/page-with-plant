@@ -55,3 +55,12 @@
     line-height: 23px;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .vase__description {
+    padding: 12px 4%;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+  }
+}
