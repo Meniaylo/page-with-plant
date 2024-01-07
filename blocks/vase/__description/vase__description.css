@@ -64,3 +64,11 @@
     text-align: left;
   }
 }
+
+@media screen and (max-width: 594px) {
+  .vase__description {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+  }
+}

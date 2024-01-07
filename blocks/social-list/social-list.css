@@ -9,7 +9,13 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .social-navigation {
+  .social-list {
     gap: 12px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .social-list {
+    gap: 10px;
   }
 }

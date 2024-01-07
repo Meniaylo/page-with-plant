@@ -7,3 +7,9 @@
         height: 14px;
     }
   }
+
+@media screen and (max-width: 594px) {
+    .social-list__img {
+        height: 12px;
+    }
+  }

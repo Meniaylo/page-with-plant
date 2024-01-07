@@ -60,3 +60,10 @@
     margin: 20px 11px 0 0;
   }
 }
+
+@media screen and (max-width: 594px) {
+  .related-goods__heading {
+    width: 34px;
+    font-size: 38px;
+  }
+}

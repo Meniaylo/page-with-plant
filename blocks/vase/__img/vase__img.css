@@ -39,3 +39,9 @@
     width: 264px;
   }
 }
+
+@media screen and (max-width: 594px) {
+  .vase__img {
+    width: 210px;
+  }
+}

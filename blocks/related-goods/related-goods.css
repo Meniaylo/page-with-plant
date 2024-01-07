@@ -50,10 +50,16 @@
 
 @media screen and (max-width: 740px) {
   .related-goods {
-    padding-top: 120px;
     grid-template-rows: repeat(3, min-content);
     grid-template-columns: min-content fit-content(450px);
     grid-auto-flow: column;
+    row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .related-goods {
+    padding-top: 80px;
     row-gap: 16px;
   }
 }
