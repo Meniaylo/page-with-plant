@@ -33,3 +33,10 @@
     overflow: hidden;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .banner {
+    height: calc(100vh - 24px - 30px);
+    padding: 0 30px;
+  }
+}

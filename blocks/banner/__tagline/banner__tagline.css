@@ -33,3 +33,10 @@
     line-height: 15px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .banner__tagline {
+    font-size: 24px;
+    line-height: 4px;
+  }
+}
