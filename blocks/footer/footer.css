@@ -6,42 +6,48 @@
 
 @media screen and (max-width: 1440px) {
   .footer {
-    padding: 0 85px;
+    padding-left: 85px;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .footer {
-    padding: 0 78px;
+    padding-left: 78px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .footer {
-    padding: 0 44px;
+    padding-left: 44px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 0 40px;
+    padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 740px) {
   .footer {
-    padding: 0 66px;
+    padding-left: 66px;
   }
 }
 
 @media screen and (max-width: 594px) {
   .footer {
-    padding: 0 94px;
+    padding-left: 94px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .footer {
-    padding: 0 50px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .footer {
+    padding-left: 24px;
   }
 }
