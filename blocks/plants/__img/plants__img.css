@@ -52,3 +52,12 @@
     width: 240px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .plants__img {
+    max-height: 60vh;
+    width: auto;
+    padding-top: 40px;
+    background-color: #4A4A4A;
+  }
+}

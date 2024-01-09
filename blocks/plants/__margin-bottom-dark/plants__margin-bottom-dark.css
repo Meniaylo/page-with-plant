@@ -16,3 +16,9 @@
     height: 42px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .plants__margin-bottom-dark {
+    display: none;
+  }
+}

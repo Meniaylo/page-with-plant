@@ -45,3 +45,9 @@
     width: 32px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .plants__space-dark {
+    display: none;
+  }
+}

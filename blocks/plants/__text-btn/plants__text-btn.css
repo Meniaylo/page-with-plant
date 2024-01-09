@@ -30,13 +30,17 @@
 @media screen and (max-width: 768px) {
   .plants__text-btn {
     margin: 50px auto;
-    
   }
 }
 
 @media screen and (max-width: 594px) {
   .plants__text-btn {
     margin: 36px auto;
-    
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .plants__text-btn {
+    margin: 36px auto;
   }
 }
