@@ -47,28 +47,22 @@
 
 @media screen and (max-width: 768px) {
   .plants__next-btn {
-    background-size: 36px;
+    min-height: 36px;
+    background-size: contain;
     background-position: center;
     padding: 0;
   }
 }
 
-@media screen and (max-width: 740px) {
-  .plants__next-btn {
-    background-size: 24px;
-  }
-}
-
 @media screen and (max-width: 594px) {
   .plants__next-btn {
-    background-size: 22px;
+    min-height: 22px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .plants__next-btn {
     background-size: auto 40%;
-    background-position: center;
     background-repeat: no-repeat;
     height: 100px;
   }

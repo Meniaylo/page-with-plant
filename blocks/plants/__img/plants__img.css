@@ -4,6 +4,7 @@
   object-fit: cover;
   object-position: center;
   background-color: #4A4A4A;
+  min-height: 100%;
 }
 
 @media screen and (max-width: 1650px) {

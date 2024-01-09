@@ -12,7 +12,7 @@
 @media screen and (max-width: 768px) {
   .plants {
     grid-template-columns: 1fr repeat(3, min-content) 1fr;
-    grid-template-rows: min-content min-content 1fr min-content min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content;
     grid-template-areas:
   "margin-top         margin-top         margin-top         margin-top         margin-top"
   "navigation         image              space-dark         plant-info         margin-right-dark"
