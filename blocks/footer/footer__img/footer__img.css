@@ -43,3 +43,9 @@
     height: 124px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .footer__img {
+    height: 113px;
+  }
+}

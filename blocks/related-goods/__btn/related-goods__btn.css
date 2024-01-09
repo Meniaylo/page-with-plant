@@ -31,3 +31,9 @@
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .related-goods__btn {
+    margin-top: 46px;
+  }
+}
