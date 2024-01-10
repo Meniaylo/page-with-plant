@@ -8,6 +8,12 @@
   background-position: center right;
   background-repeat: no-repeat;
   padding-left: 123px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.plants__next-btn:hover {
+  background-image: url(../../../images/next-btn-hover.svg);
 }
 
 @media screen and (max-width: 1650px) {

@@ -3,6 +3,8 @@
   background: #4A4A4A;
   color: #FFFFFF;
   padding: 54px 0 135px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1440px) {
