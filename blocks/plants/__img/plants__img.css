@@ -59,6 +59,7 @@
   .plants__img {
     max-height: 60vh;
     width: auto;
+    max-width: calc(100vw - 104px); /* 104 = (social-list__img width + 2 social-list side margins) x 2 = width of 2 fractions on the sides */
     padding-top: 40px;
   }
 }

@@ -74,3 +74,19 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .related-goods__heading {
+    width: 32px;
+    font-size: 38px;
+    margin-left: -12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .related-goods__heading {
+    width: 30px;
+    font-size: 36px;
+    margin-left: -14px;
+  }
+}

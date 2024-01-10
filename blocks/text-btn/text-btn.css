@@ -81,3 +81,20 @@
     font-size: 21px;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .text-btn {
+    width: 230px;
+    height: 48px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .text-btn {
+    width: 210px;
+    height: 44px;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+}
