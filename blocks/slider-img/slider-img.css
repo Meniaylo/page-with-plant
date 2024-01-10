@@ -1,0 +1,7 @@
+.slider-img {
+  grid-area: image;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #4A4A4A;
+}

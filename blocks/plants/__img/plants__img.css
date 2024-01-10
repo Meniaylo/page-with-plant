@@ -1,65 +1,8 @@
 .plants__img {
-  grid-area: image;
-  width: 640px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   background-color: #4A4A4A;
   min-height: 100%;
-}
-
-@media screen and (max-width: 1650px) {
-  .plants__img {
-    width: 570px;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  .plants__img {
-    width: 510px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .plants__img {
-    width: 450px;
-  }
-}
-
-@media screen and (max-width: 1150px) {
-  .plants__img {
-    width: 410px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .plants__img {
-    width: 380px;
-  }
-}
-
-@media screen and (max-width: 834px) {
-  .plants__img {
-    width: 324px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .plants__img {
-    width: 277px;
-  }
-}
-
-@media screen and (max-width: 594px) {
-  .plants__img {
-    width: 240px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .plants__img {
-    max-height: 60vh;
-    width: auto;
-    max-width: calc(100vw - 104px); /* 104 = (social-list__img width + 2 social-list side margins) x 2 = width of 2 fractions on the sides */
-    padding-top: 40px;
-  }
 }
