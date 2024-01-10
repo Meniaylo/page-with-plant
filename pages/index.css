@@ -19,7 +19,7 @@
 @import url(../blocks/plants/__text/plants__text.css);
 @import url(../blocks/plants/__name/plants__name.css);
 @import url(../blocks/plants/__description/plants__description.css);
-@import url(../blocks/plants/__slider/plants__slider.css);
+@import url(../blocks/plants/__progress-bar/plants__progress-bar.css);
 @import url(../blocks/plants/__next-btn/plants__next-btn.css);
 @import url(../blocks/plants/__text-btn/plants__text-btn.css);
 @import url(../blocks/text-btn/text-btn.css);
