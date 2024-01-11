@@ -2,7 +2,7 @@ const textSlider = new Swiper('.slider', {
   spaceBetween: 50,
   loop: true,
   grabCursor: true,
-  speed: 800,
+  speed: 500,
 
   navigation: {
     nextEl: '.plants__next-btn'
@@ -16,6 +16,11 @@ const textSlider = new Swiper('.slider', {
 
   mousewheel: {
     eventsTarget: ".plants__info"
+  },
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'progressbar',
   },
 });
 
