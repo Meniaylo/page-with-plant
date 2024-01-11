@@ -5,7 +5,7 @@
   line-height: 35px;
   text-align: justify;
   max-height: 210px;
-  overflow: scroll;
+  overflow: hidden;
   margin: 0;
 }
 
