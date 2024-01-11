@@ -1,7 +1,8 @@
-new Swiper('.slider', {
+const textSlider = new Swiper('.slider', {
   spaceBetween: 50,
   loop: true,
   grabCursor: true,
+  speed: 800,
 
   navigation: {
     nextEl: '.plants__next-btn'
@@ -16,19 +17,16 @@ new Swiper('.slider', {
   mousewheel: {
     eventsTarget: ".plants__info"
   },
-
-  autoplay: {
-    stopOnLastSlide: false,
-    disableOnInteraction: true
-  }
 });
 
-new Swiper('.slider-img', {
+const imageSlider = new Swiper('.slider-img', {
     loop: true,
     grabCursor: true,
-  
-    navigation: {
-      nextEl: '.plants__next-btn'
+    effect: 'fade',
+    speed: 800,
+
+    fadeEffect: {
+      crossFade: true,
     },
   
     keyboard: {
@@ -38,14 +36,9 @@ new Swiper('.slider-img', {
     },
   
     mousewheel: {
-      eventsTarget: ".plants__info"
+      eventsTarget: ".slider-img"
     },
-  
-    autoplay: {
-      stopOnLastSlide: false,
-      disableOnInteraction: true
-    },
-  
-    
-  
   });
+
+  textSlider.controller.control = imageSlider;
+  imageSlider.controller.control = textSlider;
