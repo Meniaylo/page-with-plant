@@ -20,7 +20,7 @@ const textSlider = new Swiper('.slider', {
 
 scrollbar: {
   el: '.swiper-scrollbar',
-
+  draggable: false
 }
 });
 

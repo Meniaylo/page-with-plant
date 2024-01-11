@@ -6,7 +6,6 @@
   letter-spacing: .24em;
   margin: 0 0 .1em;
   overflow: hidden;
-  /* text-overflow: ellipsis; */
   overflow-wrap: anywhere;
 }
 
@@ -40,13 +39,6 @@
 
 @media screen and (max-width: 1024px) {
   .plants__name {
-    font-size: 52px;
-    line-height: 61px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .plants__name {
     font-size: 48px;
     line-height: 56px;
   }
@@ -68,8 +60,8 @@
 
 @media screen and (max-width: 740px) {
   .plants__name {
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 36px;
+    line-height: 43px;
   }
 }
 
