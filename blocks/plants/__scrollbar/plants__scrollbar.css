@@ -1,0 +1,13 @@
+.plants__scrollbar {
+  margin: 0;
+  width: 100%;
+  position: relative !important;
+  height: 1px !important;
+  background: #fff;
+}
+
+.plants__scrollbar .swiper-scrollbar-drag {
+  height: 300%;
+  background: #fff;
+  top: -100%;
+}

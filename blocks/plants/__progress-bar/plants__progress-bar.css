@@ -1,9 +1,0 @@
-.plants__progress-bar {
-  margin: 0;
-  width: 100%;
-  position: relative;
-}
-
-.plants__progress-bar .swiper-pagination-progressbar-fill {
-  background-color: #A9A9A9;
-}

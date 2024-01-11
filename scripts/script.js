@@ -18,10 +18,10 @@ const textSlider = new Swiper('.slider', {
     eventsTarget: ".plants__info"
   },
 
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'progressbar',
-  },
+scrollbar: {
+  el: '.swiper-scrollbar',
+
+}
 });
 
 const imageSlider = new Swiper('.slider-img', {
