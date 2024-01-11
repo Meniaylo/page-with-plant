@@ -16,6 +16,10 @@
   background-image: url(../../../images/next-btn-hover.svg);
 }
 
+.plants__next-btn:active {
+  background: #4a4a4a;
+}
+
 @media screen and (max-width: 1650px) {
   .plants__next-btn {
     background-size: 32px;
