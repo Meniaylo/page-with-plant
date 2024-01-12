@@ -6,6 +6,6 @@
 @media screen and (max-width: 810px) {
   .banner__logo {
     box-sizing: border-box;
-    opacity: .8;
+    opacity: 1;
   }
 }
