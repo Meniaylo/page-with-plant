@@ -13,8 +13,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-.plants__next-btn:hover,
-.plants__next-btn:focus {
+.plants__next-btn:hover {
   background-image: url(../../../images/next-btn-hover.svg);
 }
 
