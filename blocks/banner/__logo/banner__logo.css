@@ -1,10 +1,11 @@
 .banner__logo {
   width: 100%;
+  opacity: 0.195709;
 }
 
 @media screen and (max-width: 810px) {
   .banner__logo {
     box-sizing: border-box;
-    filter: brightness(40%);
+    opacity: .8;
   }
 }

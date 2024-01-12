@@ -10,14 +10,16 @@
   padding-left: 123px;
   cursor: pointer;
   transition: .2s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.plants__next-btn:hover {
+.plants__next-btn:hover,
+.plants__next-btn:focus {
   background-image: url(../../../images/next-btn-hover.svg);
 }
 
 .plants__next-btn:active {
-  background: #4a4a4a;
+  background-image: url(../../../images/next-btn.svg);
 }
 
 @media screen and (max-width: 1650px) {
