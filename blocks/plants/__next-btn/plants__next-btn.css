@@ -20,6 +20,7 @@
 
 .plants__next-btn:active {
   background-image: url(../../../images/next-btn.svg);
+  transition: none;
 }
 
 @media screen and (max-width: 1650px) {
