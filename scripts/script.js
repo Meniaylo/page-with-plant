@@ -1,3 +1,44 @@
+const plantsName = document.querySelector('.plants__name');
+const allPlantsNames = document.querySelectorAll('.plants__name');
+const plantsDescriptionFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__description'), null).getPropertyValue('font-size'));
+
+let plantsNameFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('font-size'));
+let plantsNameLineHeight = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('line-height'));
+
+console.log(`FS: ${plantsNameFontsize}`);
+console.log(`LH: ${plantsNameLineHeight}`);
+
+
+function plantsNameResize (arr) {
+  let offsetHeights = [];
+
+  for (i=0; i < arr.length; i++) {
+    offsetHeights.push(arr[i].offsetHeight);
+  };
+  console.log(`First array is ${offsetHeights}`);
+
+  while (Math.max(...offsetHeights) > plantsNameLineHeight * 2) {
+    plantsNameFontsize = plantsNameFontsize - 1;
+    plantsNameLineHeight = plantsNameLineHeight - 1;
+    
+    for (i=0; i < arr.length; i++) {
+      arr[i].style.setProperty('font-size', `${plantsNameFontsize}px`);
+      arr[i].style.setProperty('line-height', `${plantsNameLineHeight}px`);
+      offsetHeights.splice(i, 1, arr[i].offsetHeight);
+    };
+
+    console.log(`New size is ${plantsNameFontsize}px`);
+    console.log(`New LH: ${plantsNameLineHeight}`);
+  };
+    console.log(`New array is ${offsetHeights}`);
+  };
+
+
+plantsNameResize(allPlantsNames);
+
+
+
+
 const textSlider = new Swiper('.slider', {
   spaceBetween: 50,
   loop: true,
