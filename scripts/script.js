@@ -5,10 +5,6 @@ const plantsDescriptionFontsize = parseFloat(window.getComputedStyle(document.qu
 let plantsNameFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('font-size'));
 let plantsNameLineHeight = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('line-height'));
 
-console.log(`Name font: ${plantsNameFontsize}`);
-console.log(`Name LH: ${plantsNameLineHeight}`);
-console.log(`Description font: ${plantsDescriptionFontsize}`);
-
 
 const plantsNameResize = (arr) => {
   let offsetHeights = [];
@@ -16,7 +12,6 @@ const plantsNameResize = (arr) => {
   for (i=0; i < arr.length; i++) {
     offsetHeights.push(arr[i].offsetHeight);
   };
-  console.log(`First array is ${offsetHeights}`);
 
   while ((Math.max(...offsetHeights) > plantsNameLineHeight * 2) && (plantsNameFontsize > plantsDescriptionFontsize + 8)) {
     console.log(Math.max(...offsetHeights), plantsNameLineHeight);
@@ -30,14 +25,8 @@ const plantsNameResize = (arr) => {
       arr[i].style.setProperty('line-height', `${plantsNameLineHeight}px`);
       offsetHeights.splice(i, 1, arr[i].offsetHeight);
     };
-
-    console.log(`New Name font: ${plantsNameFontsize}`);
-    console.log(`New Name LH: ${plantsNameLineHeight}`);
-    console.log(`New Description font: ${plantsDescriptionFontsize}`);
   };
-    console.log(`New array is ${offsetHeights}`);
-  };
-
+};
 
 plantsNameResize(allPlantsNames);
 
