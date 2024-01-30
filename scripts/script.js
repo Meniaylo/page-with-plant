@@ -1,11 +1,8 @@
 const plantsName = document.querySelector('.plants__name');
 const allPlantsNames = document.querySelectorAll('.plants__name');
-// const allPlantsDescriptions = document.querySelectorAll('.plants__description');
 const plantsDescriptionFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__description'), null).getPropertyValue('font-size'));
 let plantsNameFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('font-size'));
 let plantsNameLineHeight = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('line-height'));
-// let plantsDescriptionLineHeight = parseFloat(window.getComputedStyle(document.querySelector('.plants__description'), null).getPropertyValue('line-height'));
-
 
 const titleFontResize = (elementsArr, titleLH, titleFS, contentFS, minDifference) => {
   let offsetHeights = Array.from(elementsArr).map(function (i) {
@@ -31,8 +28,8 @@ const titleFontResize = (elementsArr, titleLH, titleFS, contentFS, minDifference
   // };
 };
 
-const textBlockResize = () => {
-  document.querySelectorAll('.plants__description').forEach(function (element) {
+const textBlockResize = (blockClass) => {
+  document.querySelectorAll(blockClass).forEach(function (element) {
     let fakeElem = element.cloneNode(false);
     fakeElem.style = `
       max-height: 100000px;
@@ -71,7 +68,7 @@ const textBlockResize = () => {
 
 document.addEventListener('DOMContentLoaded', function () {
   titleFontResize(allPlantsNames, plantsNameLineHeight, plantsNameFontsize, plantsDescriptionFontsize, 8);
-  textBlockResize();
+  textBlockResize('.plants__description');
 });
 
 
