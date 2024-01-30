@@ -1,8 +1,10 @@
 const plantsName = document.querySelector('.plants__name');
 const allPlantsNames = document.querySelectorAll('.plants__name');
+// const allPlantsDescriptions = document.querySelectorAll('.plants__description');
 const plantsDescriptionFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__description'), null).getPropertyValue('font-size'));
 let plantsNameFontsize = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('font-size'));
 let plantsNameLineHeight = parseFloat(window.getComputedStyle(document.querySelector('.plants__name'), null).getPropertyValue('line-height'));
+// let plantsDescriptionLineHeight = parseFloat(window.getComputedStyle(document.querySelector('.plants__description'), null).getPropertyValue('line-height'));
 
 
 const titleFontResize = (elementsArr, titleLH, titleFS, contentFS, minDifference) => {
@@ -10,8 +12,6 @@ const titleFontResize = (elementsArr, titleLH, titleFS, contentFS, minDifference
     return i.offsetHeight;
   });
   
-  console.log('offsetHeights', offsetHeights);
-
   while ((Math.max(...offsetHeights) > titleLH * 2) && (titleFS > contentFS + minDifference)) {
     titleFS -= 1;
     titleLH -= 1;
@@ -23,6 +23,7 @@ const titleFontResize = (elementsArr, titleLH, titleFS, contentFS, minDifference
     };
   };
 
+  // На случай, если мне понадобятся эти данные:
   // return {
   //   offsetHeights,
   //   adjustedFS: titleFS,
@@ -30,8 +31,47 @@ const titleFontResize = (elementsArr, titleLH, titleFS, contentFS, minDifference
   // };
 };
 
+const textBlockResize = () => {
+  document.querySelectorAll('.plants__description').forEach(function (element) {
+    let fakeElem = element.cloneNode(false);
+    fakeElem.style = `
+      max-height: 100000px;
+      width: 100%;
+      position: absolute;
+      visibility: hidden;
+      z-index: -100;
+      width: ` + getComputedStyle(element).width;
+
+    document.body.appendChild(fakeElem);
+
+    let elementHeight = parseFloat(window.getComputedStyle(element, null).getPropertyValue('max-height'));
+
+    fakeElem.textContent = element.textContent;
+
+    while (parseFloat(getComputedStyle(fakeElem).height) > elementHeight) {
+      while (element.textContent.endsWith('.')) {
+        element.textContent = element.textContent.slice(0, -1);
+      };
+
+      let dot;
+      let lastDot;
+      while (dot !== -1) {
+        dot = element.textContent.indexOf('.', dot + 1);
+        console.log(dot);
+
+        if (dot !== -1) {
+          lastDot = dot;
+        };
+      };
+      element.textContent = element.textContent.slice(0, lastDot + 1);
+      fakeElem.textContent = element.textContent;
+    }
+  })
+};
+
 document.addEventListener('DOMContentLoaded', function () {
   titleFontResize(allPlantsNames, plantsNameLineHeight, plantsNameFontsize, plantsDescriptionFontsize, 8);
+  textBlockResize();
 });
 
 
